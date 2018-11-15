@@ -1,0 +1,159 @@
+
+
+@font-face{
+font-family: brocha-pincel;
+src: url( brocha.otf );
+}
+
+@font-face{
+font-family: Eksotika-Regular;
+src: url(Eksotika-Regular.ttf); 
+}
+
+
+body {
+	background-color:#FAE18E
+} 
+
+
+.principal {
+	width: 600px;
+	margin: 0 auto;
+	background-color:#93DAE3
+	
+}
+
+
+.cabecera {
+	background-color:; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 600px;
+	border-radius: 25px;
+}
+
+.cabecera h1{
+	text-align: center;
+	
+}
+
+
+h1{
+font-family: brocha-pincel;
+}
+h1{
+font-size: 42px;
+display: block;
+text-align: center;
+}
+
+h1{
+
+}
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #03DFAA;
+    
+ background: linear-gradient( to bottom, red, blue);
+ }
+ 
+ 
+  
+ 
+  	
+  
+  
+  
+ 
+
+  
+
+.menu ul li{
+    float:left; 
+}
+
+
+
+.menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+   
+}
+
+
+
+.menu ul li a:hover{
+    color: #FFFFFF;
+	background: #111;
+	text-decoration:none;
+
+}
+	
+
+
+.menu ul li a:focus{
+    color: #FFFFFF;
+	background: #111;
+	text-decoration:none;
+}
+
+
+.cuerpo{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	font-family: "Eksotika-Regular"
+
+}
+		
+/*img:hover{
+	box-shadow: 0px 0px 60px green;
+	}*/
+.cuerpo h2{
+	text-align: center;
+}
+h2{
+font-family: Eksotica-regular;
+}
+
+
+
+
+.pie{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px; 
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+img{
+display: block;
+margin: auto;
+}
+
+#boton1 {
+	 			display: none; 
+	 			position: fixed; 
+	 			bottom: 10px; 
+			   /*right: 15px; */	
+			   z-index: 99; 
+			   border: none; 
+			   outline: none; 
+			   background-color: transparent;
+			   color: white;
+			   cursor: pointer; 
+			      
+			}
+
+
